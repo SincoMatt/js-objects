@@ -37,6 +37,17 @@ console.log(books);
  "My dog `name` is `age` year old and likes to `speak` at strangers."
 */ 
 
+var dog = {
+    name: "Tobe",
+    age: "1",
+    vegetraian: "false",
+    color: ["white", "black"],
+    speak: function(){
+        return "bork!";
+    }
+};
+
+console.log("My dog " + dog.name + " is " + dog.age + " years old and likes to " + dog.speak() + " at strangers.");
 
 
 //An empty object
